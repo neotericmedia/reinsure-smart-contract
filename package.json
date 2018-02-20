@@ -1,8 +1,9 @@
 {
-  "name": "example",
+  "name": "reinsure-sc",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "author": "Doug Garrigan",
   "devDependencies": {
     "@types/node": "^8.0.26",
     "awesome-typescript-loader": "^3.2.3",
