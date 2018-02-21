@@ -1,6 +1,6 @@
 const path = require("path");
 module.exports = {
-  entry: "./src/example.ts",
+  entry: "./src/app.ts",
   target: "node",
   output: {
     filename: "bundle.js",

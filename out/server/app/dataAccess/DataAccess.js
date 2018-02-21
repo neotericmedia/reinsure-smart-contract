@@ -9,7 +9,7 @@ class DataAccess {
         if (this.mongooseInstance)
             return this.mongooseInstance;
         this.mongooseConnection = Mongoose.connection;
-        this.mongooseConnection.once("openUri", () => {
+        this.mongooseConnection.once("open", () => {
             console.log("Connected to mongodb!");
         });
         this.mongooseInstance = Mongoose.connect(Constants.DB_CONNECTION_STRING);

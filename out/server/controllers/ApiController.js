@@ -55,14 +55,12 @@ class ApiController {
         try {
             //res.sendFile(path.join(__dirname, '../index.html'));
             //res.send({"results": "success","results2": "success"});
-            //res.json({data: [{"name": "explained blah A"},{"name": "explained blah B"}]});
-            var apiBusiness = new ApiBusiness();
-            apiBusiness.retrieve((error, result) => {
-                if (error)
-                    res.send({ "error": "error" });
-                else
-                    res.send(result);
-            });
+            res.json({ data: [{ "name": "explained blah A" }, { "name": "explained blah B" }] });
+            //  var apiBusiness = new ApiBusiness();
+            //      apiBusiness.retrieve((error, result) => {
+            //         if(error) res.send({"error": "error"});
+            //         else res.send(result);                    
+            //     });   
         }
         catch (e) {
             console.log(e);

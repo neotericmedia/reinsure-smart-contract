@@ -5,7 +5,14 @@
   "license": "MIT",
   "author": "Doug Garrigan",
   "devDependencies": {
-    "@types/node": "^8.0.26",
+    "@types/body-parser": "^1.16.2",
+    "@types/dotenv": "^2.0.20",
+    "@types/errorhandler": "0.0.30",
+    "@types/express": "^4.0.35",
+    "@types/mongodb": "^2.1.43",
+    "@types/mongoose": "^4.7.9",
+    "@types/node": "^7.0.12",
+    "@types/request": "0.0.45",
     "awesome-typescript-loader": "^3.2.3",
     "truffle": "^3.4.9",
     "typechain": "0.0.2",
@@ -14,7 +21,14 @@
     "webpack": "^3.5.5"
   },
   "dependencies": {
-    "web3": "0.20.1"
+    "bignumber.js": "^6.0.0",
+    "web3": "0.20.1",
+    "dotenv": "^2.0.0",
+    "errorhandler": "^1.4.3",
+    "express": "^4.15.4",
+    "body-parser": "^1.15.2",
+    "mongoose": "^4.6.6",
+    "request": "^2.78.0"
   },
   "scripts": {
     "testrpc": "testrpc",
