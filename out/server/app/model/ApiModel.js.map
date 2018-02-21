@@ -1,0 +1,1 @@
+{"version":3,"file":"ApiModel.js","sourceRoot":"","sources":["../../../../server/app/model/ApiModel.ts"],"names":[],"mappings":";AAEA;IAIG,YAAY,QAAmB;QAC3B,IAAI,CAAC,SAAS,GAAG,QAAQ,CAAC;IAC9B,CAAC;IACD,IAAI,IAAI;QACJ,MAAM,CAAC,IAAI,CAAC,SAAS,CAAC,IAAI,CAAC;IAC/B,CAAC;CAWH;AACD,MAAM,CAAC,IAAI,CAAC,QAAQ,CAAC,CAAC;AACtB,iBAAU,QAAQ,CAAC"}
