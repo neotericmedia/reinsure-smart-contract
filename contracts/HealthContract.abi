@@ -1,0 +1,70 @@
+[
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "getTrailCount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "trailNo",
+          "type": "uint8"
+        }
+      ],
+      "name": "getLocation",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "claimId",
+          "type": "uint256"
+        },
+        {
+          "name": "coName",
+          "type": "string"
+        },
+        {
+          "name": "secret",
+          "type": "string"
+        }
+      ],
+      "name": "addNewClaim",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    }
+  ]

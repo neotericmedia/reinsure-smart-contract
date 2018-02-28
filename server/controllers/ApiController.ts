@@ -61,8 +61,8 @@ class ApiController implements IBaseController <ApiBusiness> {
     retrieve(req: express.Request, res: express.Response): void {
         try {
              //res.sendFile(path.join(__dirname, '../index.html'));
-             //res.send({"results": "success","results2": "success"});
-             res.json({data: [{"name": "explained blah A"},{"name": "explained blah B"}]});
+             res.send({"results": "success","results2": "success"});
+             //res.json({data: [{"name": "explained blah A"},{"name": "explained blah B"}]});
 
             //  var apiBusiness = new ApiBusiness();
             //      apiBusiness.retrieve((error, result) => {

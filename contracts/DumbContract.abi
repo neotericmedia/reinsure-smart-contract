@@ -36,6 +36,19 @@
     {
       "constant": true,
       "inputs": [],
+      "name": "test",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
       "name": "returnAll",
       "outputs": [
         {
